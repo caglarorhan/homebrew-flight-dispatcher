@@ -14,7 +14,7 @@ class FlightDispatcher < Formula
       end
     else
       url "https://github.com/caglarorhan/flight-dispatcher/releases/download/v1.1.0/flight-dispatcher-v1.1.0-macos-x64"
-      sha256 "ed061e177f9365806cf6fb36f66b97b32165a91910f150ac427e770fdff1862e"
+      sha256 "7227a5048d00ebfde8f180d3b1f28c8f67a907bc9b0a948ca2699fa1b378a3a8"
 
       def install
         bin.install "flight-dispatcher-#{version}-macos-x64" => "flight-dispatcher"
@@ -24,7 +24,7 @@ class FlightDispatcher < Formula
 
   on_linux do
     url "https://github.com/caglarorhan/flight-dispatcher/releases/download/v1.1.0/flight-dispatcher-v1.1.0-linux-x64"
-    sha256 "8911af13fb5df7abea0d5a76d66fd6768a001c5ed872017fd1aa6b3f4e8f1e38"
+    sha256 "18c2ec00be20111ac4e57546c4cc0adbd6da85063445744ff53b114bf4ecc7fe"
 
     def install
       bin.install "flight-dispatcher-#{version}-linux-x64" => "flight-dispatcher"
